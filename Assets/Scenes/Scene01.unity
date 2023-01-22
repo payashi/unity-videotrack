@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c1357d1c9818b72aaf7dc6f94fc49ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  origin: {fileID: 5503270138206404671, guid: a977750f767beb8c98dbe687e02277d7, type: 3}
+  origin: {fileID: 5235625842395137603, guid: 3c7bd2b4b6f4d2aef88d4a3d4c69cb90, type: 3}
 --- !u!4 &754068245
 Transform:
   m_ObjectHideFlags: 0
@@ -504,7 +504,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1

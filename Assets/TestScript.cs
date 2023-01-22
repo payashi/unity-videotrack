@@ -28,7 +28,15 @@ public class TestScript: MonoBehaviour
 
         foreach (Item item in items)
         {
-            item.obj = Instantiate(origin, new Vector3(0.0f, -2.0f, 0.0f), Quaternion.identity);
+            float angle = Mathf.Atan2(
+                item.plots[item.size-1][1]-item.plots[0][1],
+                item.plots[item.size-1][0]-item.plots[0][0]
+            ) * Mathf.Rad2Deg - 90;
+            item.obj = Instantiate(
+                origin, 
+                new Vector3(0.0f, -2.0f, 0.0f), 
+                Quaternion.Euler(0, angle, 0)
+            );
         }
 	}
 
